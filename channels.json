@@ -1,30 +1,231 @@
 {
-  "update_url": "https://raw.githubusercontent.com/Sidimadtv/tauri-updates/main/channels.json",
+  "update_url": "https://raw.githubusercontent.com/Sidimad-tv/mychan/refs/heads/main/channels.json",
   "categories": [
     {
       "id": "mbc",
       "name": "MBC-ROTANA",
       "icon": "fa-solid fa-television",
       "channels": [
-        { "name": "1", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-1-5.png", "src": "https://sidimadtv-live.blogspot.com/mbc" },
-        { "name": "MBC USA", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/mus.png", "src": "https://sidimadtv-live.blogspot.com/mbc-usa" },
-        { "name": "MBC 2", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-2-5.png", "src": "https://channels-sidimad.blogspot.com/mbc2" },
-        { "name": "MBC 3", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-3-2.png", "src": "https://channels-sidimad.blogspot.com/mbc3" },
-        { "name": "MBC 4", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-4-2.png", "src": "https://channels-sidimad.blogspot.com/mbc4" },
-        { "name": "MBC Action", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-action-2.png", "src": "https://channels-sidimad.blogspot.com/mbc-action" },
-        { "name": "MBC Max", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-max-3.png", "src": "https://channels-sidimad.blogspot.com/mbc-max" },
-        { "name": "MBC Drama", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-drama-2.png", "src": "https://channels-sidimad.blogspot.com/mbc-drama" },
-        { "name": "MBC Bollywood", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-bollywood.png", "src": "https://channels-sidimad.blogspot.com/mbc-bollywood" },
-        { "name": "MBC 5", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-5-1.png", "src": "https://channels-sidimad.blogspot.com/mbc5" },
-        { "name": "MBC Iraq", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-iraq-1.png", "src": "https://channels-sidimad.blogspot.com/mbc-iraq" },
-        { "name": "Rotana Masriya", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/rotana-masriya.png", "src": "https://channels-sidimad.blogspot.com/rotana-masriya" },
-        { "name": "Rotana Cinema", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/rotana-cinema.png", "src": "https://channels-sidimad.blogspot.com/rotana-cinema" },
-        { "name": "Rotana Classic", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/rotana-classic.png", "src": "https://channels-sidimad.blogspot.com/rotana-classic" },
-        { "name": "Rotana Khalijia", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/rotana-khalijia.png", "src": "https://channels-sidimad.blogspot.com/rotana-khalijia" },
-        { "name": "MBC Persia", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-persia-1.png", "src": "https://channels-sidimad.blogspot.com/mbc-persia" },
-        { "name": "Shahid", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/shahid.png", "src": "https://channels-sidimad.blogspot.com/shahid" },
-        { "name": "Al Arabiya", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/alarabiya.png", "src": "https://channels-sidimad.blogspot.com/alarabiya" },
-        { "name": "Al Hadath", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/alhadath.png", "src": "https://channels-sidimad.blogspot.com/alhadath" }
+        {
+          "name": "MBC 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-1-5.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc"
+        },
+        {
+          "name": "MBC USA",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/mus.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-usa"
+        },
+        {
+          "name": "MBC 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-2-5.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-2"
+        },
+        {
+          "name": "MBC 3",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-3-2.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-3"
+        },
+        {
+          "name": "MBC 3 MPD",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-3-2.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-3mpd"
+        },
+        {
+          "name": "MBC 4",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-4-2.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-4"
+        },
+        {
+          "name": "MBC Max",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-max-1.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-max"
+        },
+        {
+          "name": "MBC Action",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-action-4.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-action"
+        },
+        {
+          "name": "MBC 5",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-5-2.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-5"
+        },
+        {
+          "name": "MBC Bollywood",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-bollywood-2.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-bollywood"
+        },
+        {
+          "name": "MBC Persia",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-persia-2.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-persia"
+        },
+        {
+          "name": "MBC Drama",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/mmdra.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-drama"
+        },
+        {
+          "name": "MBC Drama SR",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/mbcdmm.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-dramasr"
+        },
+        {
+          "name": "MBC Drama USA",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/mdrus.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-dramausa"
+        },
+        {
+          "name": "MBC Drama Plus",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/drpp.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-dramaplus"
+        },
+        {
+          "name": "MBC Masr",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/mbc-masr.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-masr"
+        },
+        {
+          "name": "MBC Masr 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/mbc-masr-2.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-masr2"
+        },
+        {
+          "name": "MBC Iraq",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-iraq-4.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-iraq"
+        },
+        {
+          "name": "MBC Variety",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/varrr.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc-variety"
+        },
+        {
+          "name": "Rotana Masriya",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/rotana-masriya.png",
+          "src": "https://sidimadtv-live.blogspot.com/rotana-masriya"
+        },
+        {
+          "name": "Rotana Cinema",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/roc.webp",
+          "src": "https://sidimadtv-live.blogspot.com/rotana-cinema"
+        },
+        {
+          "name": "Rotana Cinema KSA",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/rc.webp",
+          "src": "https://sidimadtv-live.blogspot.com/rotana-cinemaksa"
+        },
+        {
+          "name": "Rotana Drama",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/rod.webp",
+          "src": "https://sidimadtv-live.blogspot.com/rotana-drama"
+        },
+        {
+          "name": "Rotana Aflam",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/roa.webp",
+          "src": "https://sidimadtv-live.blogspot.com/rotana-aflam"
+        },
+        {
+          "name": "Rotana Classic",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/rotana-classic.png",
+          "src": "https://sidimadtv-live.blogspot.com/rotana-classic"
+        },
+        {
+          "name": "Rotana Khalijia",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/rotana-khalijia.png",
+          "src": "https://sidimadtv-live.blogspot.com/rotana-khalijia"
+        },
+        {
+          "name": "Rotana Plus",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/rop.webp",
+          "src": "https://sidimadtv-live.blogspot.com/rotana-plus"
+        },
+        {
+          "name": "Rotana Clip",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/romu.webp",
+          "src": "https://sidimadtv-live.blogspot.com/rotana-clip"
+        },
+        {
+          "name": "Rotana Comedy",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/rom.webp",
+          "src": "https://sidimadtv-live.blogspot.com/rotana-comedy"
+        },
+        {
+          "name": "Shahid",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/shahid.png",
+          "src": "https://sidimadtv-live.blogspot.com/shahid"
+        },
+        {
+          "name": "Shahid Aflam",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/saf.webp",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-aflam"
+        },
+        {
+          "name": "Shahid Movies",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/sam.webp",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-movies"
+        },
+        {
+          "name": "Shahid Action",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/shac.webp",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-action"
+        },
+        {
+          "name": "Shahid Thriller",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/shat.webp",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-thriller"
+        },
+        {
+          "name": "Shahid Masrah",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/shma.webp",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-masrah"
+        },
+        {
+          "name": "Shahid Kibir",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kibir.webp",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-kibir"
+        },
+        {
+          "name": "Shahid Loaba",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/looba.webp",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-loaba"
+        },
+        {
+          "name": "Shahid Hisn",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/Hisn.png",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-hisn"
+        },
+        {
+          "name": "Shahid Hikayat",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/Hd.png",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-hikayatd"
+        },
+        {
+          "name": "Al Arabiya",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/alarabiya.png",
+          "src": "https://sidimadtv-live.blogspot.com/alarabiya"
+        },
+        {
+          "name": "Al Hadath",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/alhadath.png",
+          "src": "https://sidimadtv-live.blogspot.com/alhadath"
+        },
+        {
+          "name": "Nat Geo",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/nattg.png",
+          "src": "https://sidimadtv-live.blogspot.com/nat-geo"
+        },
+        {
+          "name": "Sharq Documentary",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/shaw.webp",
+          "src": "https://sidimadtv-live.blogspot.com/sharq-docum"
+        },
+        {
+          "name": "Sharq Discovery",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/shad.webp",
+          "src": "https://sidimadtv-live.blogspot.com/sharq-discovery"
+        }
       ]
     },
     {
@@ -32,22 +233,421 @@
       "name": "SPORTS",
       "icon": "fa-solid fa-volleyball",
       "channels": [
-        { "name": "SSC 1", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc1.png", "src": "https://sidimadpro.blogspot.com/ssc-news" },
-        { "name": "SSC 2", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc2.png", "src": "https://sidimadpro.blogspot.com/ssc-news" },
-        { "name": "SSC 3", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc3.png", "src": "https://sidimadpro.blogspot.com/ssc-news" },
-        { "name": "SSC 4", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc4.png", "src": "https://sidimadpro.blogspot.com/ssc-news" },
-        { "name": "SSC 5", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc5.png", "src": "https://sidimadpro.blogspot.com/ssc-news" },
-        { "name": "SSC 6", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc6.png", "src": "https://sidimadpro.blogspot.com/ssc-news" },
-        { "name": "SSC 7", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc7.png", "src": "https://sidimadpro.blogspot.com/ssc-news" },
-        { "name": "SSC 8", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc8.png", "src": "https://sidimadpro.blogspot.com/ssc-news" },
-        { "name": "SSC 9", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc9.png", "src": "https://sidimadpro.blogspot.com/ssc-news" },
-        { "name": "SSC 10", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc10.png", "src": "https://sidimadpro.blogspot.com/ssc-news" },
-        { "name": "Sky Sports ME", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/skysp.png", "src": "https://channels-sidimad.blogspot.com/skysp-me" },
-        { "name": "Bein Sports", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/beinsport.png", "src": "https://channels-sidimad.blogspot.com/bein-sport" },
-        { "name": "Al-Kass Sports", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/alkass.png", "src": "https://channels-sidimad.blogspot.com/alkass" },
-        { "name": "Abu Dhabi Sports", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/adsports.png", "src": "https://channels-sidimad.blogspot.com/abu-dhabi-sport" },
-        { "name": "Dubai Sports", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/dubaisp.png", "src": "https://channels-sidimad.blogspot.com/dubai-sport" },
-        { "name": "KSA Sports", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ksasp.png", "src": "https://channels-sidimad.blogspot.com/ksa-sport" }
+        {
+          "name": "SSC 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc1.png",
+          "src": "https://sidimadtv-live.blogspot.com/ssc-news"
+        },
+        {
+          "name": "SSC 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc2.png",
+          "src": "https://sidimadtv-live.blogspot.com/ssc-news"
+        },
+        {
+          "name": "SSC 3",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc3.png",
+          "src": "https://sidimadtv-live.blogspot.com/ssc-news"
+        },
+        {
+          "name": "SSC 4",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc4.png",
+          "src": "https://sidimadtv-live.blogspot.com/ssc-news"
+        },
+        {
+          "name": "SSC 5",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc5.png",
+          "src": "https://sidimadtv-live.blogspot.com/ssc-news"
+        },
+        {
+          "name": "SSC 6",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc6.png",
+          "src": "https://sidimadtv-live.blogspot.com/ssc-news"
+        },
+        {
+          "name": "SSC 7",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc7.png",
+          "src": "https://sidimadtv-live.blogspot.com/ssc-news"
+        },
+        {
+          "name": "SSC 8",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc8.png",
+          "src": "https://sidimadtv-live.blogspot.com/ssc-news"
+        },
+        {
+          "name": "SSC 9",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc9.png",
+          "src": "https://sidimadtv-live.blogspot.com/ssc-news"
+        },
+        {
+          "name": "SSC 10",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ssc10.png",
+          "src": "https://sidimadtv-live.blogspot.com/ssc-news"
+        },
+        {
+          "name": "Starplay SP 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/szp1.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/starplaysp-1"
+        },
+        {
+          "name": "Starplay SP 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/szp2.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/starplaysp-2"
+        },
+        {
+          "name": "AD Sport 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/adpr1.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/ad-sport1"
+        },
+        {
+          "name": "AD Sport 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/adpr2.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/ad-sport2"
+        },
+        {
+          "name": "Bein Sports",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/beinsport.png",
+          "src": "https://sidimadtv-live.blogspot.com/bein-sport"
+        },
+        {
+          "name": "Bein 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/bn11e.png",
+          "src": "https://sidimadtv-live.blogspot.com/bein-1"
+        },
+        {
+          "name": "Bein 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/bn22e.png",
+          "src": "https://sidimadtv-live.blogspot.com/bein-2"
+        },
+        {
+          "name": "Bein 3",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/bn3e.png",
+          "src": "https://sidimadtv-live.blogspot.com/bein-3"
+        },
+        {
+          "name": "La Liga",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/liga.webp",
+          "src": "https://sidimadtv-live.blogspot.com/la-liga"
+        },
+        {
+          "name": "La Liga Hypermotion",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/lighy.webp",
+          "src": "https://sidimadtv-live.blogspot.com/la-ligahypermotion"
+        },
+        {
+          "name": "TSN 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/tsn1.png",
+          "src": "https://sidimadtv-live.blogspot.com/tsn-1"
+        },
+        {
+          "name": "TSN 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/tsn2.png",
+          "src": "https://sidimadtv-live.blogspot.com/tsn-2"
+        },
+        {
+          "name": "TSN 3",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/tsn3.png",
+          "src": "https://sidimadtv-live.blogspot.com/tsn-3"
+        },
+        {
+          "name": "TSN 4",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/tsn4.png",
+          "src": "https://sidimadtv-live.blogspot.com/tsn-4"
+        },
+        {
+          "name": "TSN 5",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/tsn5.png",
+          "src": "https://sidimadtv-live.blogspot.com/tsn-5"
+        },
+        {
+          "name": "TNT SP 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/tn1.png",
+          "src": "https://sidimadtv-live.blogspot.com/tntsp-1_17"
+        },
+        {
+          "name": "TNT SP 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/tn2.png",
+          "src": "https://sidimadtv-live.blogspot.com/tntsp-2"
+        },
+        {
+          "name": "TNT SP 3",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/tn3.png",
+          "src": "https://sidimadtv-live.blogspot.com/tntsp-3"
+        },
+        {
+          "name": "TNT SP 4",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/tn4.png",
+          "src": "https://sidimadtv-live.blogspot.com/tntsp-4"
+        },
+        {
+          "name": "Eurosport 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/eur1.png",
+          "src": "https://sidimadtv-live.blogspot.com/eurosport-1"
+        },
+        {
+          "name": "Eurosport 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/eur2.png",
+          "src": "https://sidimadtv-live.blogspot.com/eurosport-2"
+        },
+        {
+          "name": "Premier SP 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/prms1.png",
+          "src": "https://sidimadtv-live.blogspot.com/premiersp-1"
+        },
+        {
+          "name": "Premier SP 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/prms2.png",
+          "src": "https://sidimadtv-live.blogspot.com/premiersp-2"
+        },
+        {
+          "name": "Ziggo 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/zig1.svg",
+          "src": "https://sidimadtv-live.blogspot.com/ziggo-1"
+        },
+        {
+          "name": "Ziggo 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/zig2.svg",
+          "src": "https://sidimadtv-live.blogspot.com/ziggo-2"
+        },
+        {
+          "name": "Ziggo 3",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/zig3.svg",
+          "src": "https://sidimadtv-live.blogspot.com/ziggo-3"
+        },
+        {
+          "name": "Ziggo 4",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/zig4.svg",
+          "src": "https://sidimadtv-live.blogspot.com/ziggo-4"
+        },
+        {
+          "name": "Ziggo 5",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/zig5.svg",
+          "src": "https://sidimadtv-live.blogspot.com/ziggo-5"
+        },
+        {
+          "name": "Ziggo 6",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/zig6.svg",
+          "src": "https://sidimadtv-live.blogspot.com/ziggo-6"
+        },
+        {
+          "name": "Al-Kass Sports",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/alkass.png",
+          "src": "https://sidimadtv-live.blogspot.com/alkass"
+        },
+        {
+          "name": "Alkass 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/k1.png",
+          "src": "https://sidimadtv-live.blogspot.com/alkass-1"
+        },
+        {
+          "name": "Alkass 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/k2.png",
+          "src": "https://sidimadtv-live.blogspot.com/alkass-2"
+        },
+        {
+          "name": "Alkass 3",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/k3.png",
+          "src": "https://sidimadtv-live.blogspot.com/alkass-3"
+        },
+        {
+          "name": "Alkass 4",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/k4.png",
+          "src": "https://sidimadtv-live.blogspot.com/alkass-4"
+        },
+        {
+          "name": "Alkass 5",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/k5.png",
+          "src": "https://sidimadtv-live.blogspot.com/alkass-5"
+        },
+        {
+          "name": "Abu Dhabi Sports",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/adsports.png",
+          "src": "https://sidimadtv-live.blogspot.com/abu-dhabi-sport"
+        },
+        {
+          "name": "Dubai Sports",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/dubaisp.png",
+          "src": "https://sidimadtv-live.blogspot.com/dubai-sport"
+        },
+        {
+          "name": "Dubai Sport 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/ds1.png",
+          "src": "https://sidimadtv-live.blogspot.com/dubaisport-1"
+        },
+        {
+          "name": "Dubai Sport 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/ds2.png",
+          "src": "https://sidimadtv-live.blogspot.com/dubaisport-2"
+        },
+        {
+          "name": "Dubai Sport 3",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/ds3.png",
+          "src": "https://sidimadtv-live.blogspot.com/dubaisport-3"
+        },
+        {
+          "name": "YAS TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/yas.webp",
+          "src": "https://sidimadtv-live.blogspot.com/yastv"
+        },
+        {
+          "name": "Bahrain SP",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/bah.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/bahrainsp"
+        },
+        {
+          "name": "Sharjah Sport",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/sar.png",
+          "src": "https://sidimadtv-live.blogspot.com/sharjah"
+        },
+        {
+          "name": "Oman Sport",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/om.png",
+          "src": "https://sidimadtv-live.blogspot.com/omansport"
+        },
+        {
+          "name": "Arryadia",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/ary.png",
+          "src": "https://sidimadtv-live.blogspot.com/arryadia"
+        },
+        {
+          "name": "KSA Sports",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/ksasp.png",
+          "src": "https://sidimadtv-live.blogspot.com/ksa-sport"
+        },
+        {
+          "name": "Sky Sports ME",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/skysp.png",
+          "src": "https://sidimadtv-live.blogspot.com/skysp-me"
+        },
+        {
+          "name": "Sky SP PL",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/sky/splr.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/skysp-pl"
+        },
+        {
+          "name": "Sky SP Football",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/sky/sfoot.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/skysp-foot"
+        },
+        {
+          "name": "Sky SP Action",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/sky/sact.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/skysp-action"
+        },
+        {
+          "name": "Sky SP ME",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/sky/sme.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/skysp-me"
+        },
+        {
+          "name": "Sky SP Mix",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/sky/smi.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/skysp-mix"
+        },
+        {
+          "name": "Sky SP Arena",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/sky/sar.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/skysp-arena"
+        },
+        {
+          "name": "Sky SP Racing",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/sky/srac.png",
+          "src": "https://sidimadtv-live.blogspot.com/skysp-racing"
+        },
+        {
+          "name": "Sky SP Tennis",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/skte.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/skysp-tennis"
+        },
+        {
+          "name": "Sky SP F1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/sky/sfor.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/skysp-f1"
+        },
+        {
+          "name": "Real Madrid TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/real.webp",
+          "src": "https://sidimadtv-live.blogspot.com/real-madridtv"
+        },
+        {
+          "name": "Man United TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/manu.webp",
+          "src": "https://sidimadtv-live.blogspot.com/man-unitedtv"
+        },
+        {
+          "name": "Fight Sports",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/fis.png",
+          "src": "https://sidimadtv-live.blogspot.com/fightsports"
+        },
+        {
+          "name": "Moscow Sport",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/mmn.png",
+          "src": "https://sidimadtv-live.blogspot.com/mmnsp"
+        },
+        {
+          "name": "Das Erste",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/das.png",
+          "src": "https://sidimadtv-live.blogspot.com/daserste"
+        },
+        {
+          "name": "Unbeaten",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/unb.png",
+          "src": "https://sidimadtv-live.blogspot.com/unbeaten"
+        },
+        {
+          "name": "TYC",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/tyc.png",
+          "src": "https://sidimadtv-live.blogspot.com/tyc"
+        },
+        {
+          "name": "FIFA TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/ffi.png",
+          "src": "https://sidimadtv-live.blogspot.com/fifatv"
+        },
+        {
+          "name": "NBA",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/nnba.png",
+          "src": "https://sidimadtv-live.blogspot.com/nba"
+        },
+        {
+          "name": "NFL",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/nfl.png",
+          "src": "https://sidimadtv-live.blogspot.com/nfl"
+        },
+        {
+          "name": "MLB",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/mlb.png",
+          "src": "https://sidimadtv-live.blogspot.com/mlb"
+        },
+        {
+          "name": "Red Bull",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/redb.png",
+          "src": "https://sidimadtv-live.blogspot.com/redbull"
+        },
+        {
+          "name": "Varzesh",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/iri.png",
+          "src": "https://sidimadtv-live.blogspot.com/varzesh"
+        },
+        {
+          "name": "Sport Italia",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/sita.png",
+          "src": "https://sidimadtv-live.blogspot.com/sport-italia"
+        },
+        {
+          "name": "La 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/la1.png",
+          "src": "https://sidimadtv-live.blogspot.com/la-1"
+        },
+        {
+          "name": "Equipe 1",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/webp/equ.png",
+          "src": "https://sidimadtv-live.blogspot.com/equipe-1"
+        },
+        {
+          "name": "Criclife",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/cri1.webp",
+          "src": "https://sidimadtv-live.blogspot.com/criclife1"
+        }
       ]
     },
     {
@@ -55,23 +655,146 @@
       "name": "ISLAM",
       "icon": "fas fa-kaaba",
       "channels": [
-        { "name": "Quran Al-Sudais", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/all/islam/qura/img/favicon.png", "src": "https://sidimad-quran.blogspot.com/al-quran" },
-        { "name": "Quran Radio", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/all/islam/qura/img/rad.png", "src": "https://sidimad-quran.blogspot.com/quranradios" },
-        { "name": "40 Rabbana", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/all/islam/qura/img/rabban.png", "src": "https://sidimad-quran.blogspot.com/40rabbana" },
-        { "name": "TV Mekka", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/mek.jpg", "src": "https://islam-sidimad.blogspot.com/tv-mekka" },
-        { "name": "TV Sunnah", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/sunnah.png", "src": "https://islam-sidimad.blogspot.com/tv-sunnah" },
-        { "name": "Al-Quran Channel", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/quran.png", "src": "https://sidi-channels.blogspot.com/al-quran" },
-        { "name": "TV Iqraa", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/iqraa.png", "src": "https://islam-sidimad.blogspot.com/tv-iqraa" },
-        { "name": "TV Assadisa", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/assadisa.png", "src": "https://islam-sidimad.blogspot.com/tv-assadisa" },
-        { "name": "TV Istikama", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/istikama.png", "src": "https://islam-sidimad.blogspot.com/tv-istikama" },
-        { "name": "TV Maali", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/maali.png", "src": "https://islam-sidimad.blogspot.com/tv-maali" },
-        { "name": "TV Fath Sunna", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/fathsunna.png", "src": "https://islam-sidimad.blogspot.com/tv-fathsunna" },
-        { "name": "Al-Majd", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/almajd.png", "src": "https://islam-sidimad.blogspot.com/tv-almajd" },
-        { "name": "Almajd Quran", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/majd-quran.png", "src": "https://islam-sidimad.blogspot.com/tv-majd-quran" },
-        { "name": "Almajd Sunna", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/majd-sunna.png", "src": "https://islam-sidimad.blogspot.com/tv-majd-sunna" },
-        { "name": "Nour Al-Sham", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/nour.png", "src": "https://islam-sidimad.blogspot.com/tv-nour" },
-        { "name": "Huda TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/huda.png", "src": "https://islam-sidimad.blogspot.com/tv-huda" },
-        { "name": "Rahma TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/rahma.png", "src": "https://islam-sidimad.blogspot.com/tv-rahma" }
+        {
+          "name": "Quran Al-Sudais",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/all/islam/qura/img/favicon.png",
+          "src": "https://sidimadtv-live.blogspot.com/al-quran"
+        },
+        {
+          "name": "Quran Radio",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/all/islam/qura/img/rad.png",
+          "src": "https://sidimadtv-live.blogspot.com/quranradios"
+        },
+        {
+          "name": "40 Rabbana",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/all/islam/qura/img/rabban.png",
+          "src": "https://sidimadtv-live.blogspot.com/40rabbana"
+        },
+        {
+          "name": "Shahid Quran",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/qurr.webp",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-quran"
+        },
+        {
+          "name": "Shahid Sunnah",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/sunna.webp",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-sunnah"
+        },
+        {
+          "name": "TV Mekka",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/mekka.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/tv-mekka"
+        },
+        {
+          "name": "TV Sunnah",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/s.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/tv-sunnah"
+        },
+        {
+          "name": "Al-Quran Channel",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/qu.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/al-quran"
+        },
+        {
+          "name": "TV Iqraa",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/iqr.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/tv-iqraa"
+        },
+        {
+          "name": "TV Assadisa",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/sad.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/tv-assadisa"
+        },
+        {
+          "name": "TV Istikama",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/ist.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/tv-istikama"
+        },
+        {
+          "name": "TV Maali",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/maalii.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/tv-maali"
+        },
+        {
+          "name": "TV Fath Sunna",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/fa.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/tv-fathsunna"
+        },
+        {
+          "name": "Al-Majd",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/majd.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-almajd"
+        },
+        {
+          "name": "Almajd Quran",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/majd-quran.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-majd-quran"
+        },
+        {
+          "name": "Almajd Sunna",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/majd-sunna.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-majd-sunna"
+        },
+        {
+          "name": "Nour Al-Sham",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/nour.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-nour"
+        },
+        {
+          "name": "Huda TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/huda.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-huda"
+        },
+        {
+          "name": "Rahma TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/rahma.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-rahma"
+        },
+        {
+          "name": "TV Q Bahrain",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/bhq.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-qbahrain"
+        },
+        {
+          "name": "Sharjah 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/sha.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/sharjah-2"
+        },
+        {
+          "name": "TV Daawah",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/daw.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-daawah"
+        },
+        {
+          "name": "TV Noble",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/nb.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/tv-noble"
+        },
+        {
+          "name": "TV Assalam",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/salam.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-assalam"
+        },
+        {
+          "name": "TV Qaf",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/qaf.webp",
+          "src": "https://sidimadtv-live.blogspot.com/tv-qaf"
+        },
+        {
+          "name": "TV Peace Urdu",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/pc.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-peaceurdu"
+        },
+        {
+          "name": "TV Eman",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/eman.svg",
+          "src": "https://sidimadtv-live.blogspot.com/tv-eman"
+        },
+        {
+          "name": "TV Iqraa Eng",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/logo/iqen.png",
+          "src": "https://sidimadtv-live.blogspot.com/tv-iqraaeng"
+        }
       ]
     },
     {
@@ -79,23 +802,96 @@
       "name": "ARABIC",
       "icon": "fa fa-television",
       "channels": [
-        { "name": "Al Oula", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/aloula.png", "src": "https://channels-sidimad.blogspot.com/aloula" },
-        { "name": "Al Oula 2", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/aloula2.png", "src": "https://channels-sidimad.blogspot.com/aloula2" },
-        { "name": "Layoune", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/layoune.png", "src": "https://channels-sidimad.blogspot.com/layoune" },
-        { "name": "Tamazight", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/tamazight.png", "src": "https://channels-sidimad.blogspot.com/tamazight" },
-        { "name": "Medi 1 TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/medi1.png", "src": "https://channels-sidimad.blogspot.com/medi1" },
-        { "name": "2M TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/2m.png", "src": "https://channels-sidimad.blogspot.com/2m" },
-        { "name": "Telemaroc", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/telemaroc.png", "src": "https://channels-sidimad.blogspot.com/telemaroc" },
-        { "name": "Al Maghribia", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/maghribia.png", "src": "https://channels-sidimad.blogspot.com/maghribia" },
-        { "name": "LBC", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/lbc.png", "src": "https://channels-sidimad.blogspot.com/lbc" },
-        { "name": "MTV Lebanon", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/mtv.png", "src": "https://channels-sidimad.blogspot.com/mtv-lebanon" },
-        { "name": "Sharjah TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/sharjah.png", "src": "https://channels-sidimad.blogspot.com/sharjah" },
-        { "name": "Dubai TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/dubai-tv.png", "src": "https://channels-sidimad.blogspot.com/dubai-tv" },
-        { "name": "Abu Dhabi TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/abu-dhabi.png", "src": "https://channels-sidimad.blogspot.com/abu-dhabi" },
-        { "name": "Al Ittihad TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/ittihad.png", "src": "https://channels-sidimad.blogspot.com/al-ittihad" },
-        { "name": "Syria TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/syria.png", "src": "https://channels-sidimad.blogspot.com/syria-tv" },
-        { "name": "Nile TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/nile.png", "src": "https://channels-sidimad.blogspot.com/nile-tv" },
-        { "name": "ON TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/on-tv.png", "src": "https://channels-sidimad.blogspot.com/on-tv" }
+        {
+          "name": "Al Oula",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/aloula.png",
+          "src": "https://sidimadtv-live.blogspot.com/aloula"
+        },
+        {
+          "name": "Al Oula 2",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/aloula2.png",
+          "src": "https://sidimadtv-live.blogspot.com/aloula2"
+        },
+        {
+          "name": "Layoune",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/layoune.png",
+          "src": "https://sidimadtv-live.blogspot.com/layoune"
+        },
+        {
+          "name": "Tamazight",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/tamazight.png",
+          "src": "https://sidimadtv-live.blogspot.com/tamazight"
+        },
+        {
+          "name": "Medi 1 TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/md.png",
+          "src": "https://sidimadtv-live.blogspot.com/medi1"
+        },
+        {
+          "name": "2M TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/med.png",
+          "src": "https://sidimadtv-live.blogspot.com/2m"
+        },
+        {
+          "name": "Telemaroc",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/tel.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/telemaroc"
+        },
+        {
+          "name": "Al Maghribia",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/maghribia.png",
+          "src": "https://sidimadtv-live.blogspot.com/maghribia"
+        },
+        {
+          "name": "LBC",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/lb.webp",
+          "src": "https://sidimadtv-live.blogspot.com/lbc"
+        },
+        {
+          "name": "MTV Lebanon",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/mtv.png",
+          "src": "https://sidimadtv-live.blogspot.com/mtv-lebanon"
+        },
+        {
+          "name": "Sharjah TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/sharjah.png",
+          "src": "https://sidimadtv-live.blogspot.com/sharjah"
+        },
+        {
+          "name": "Dubai TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/dubai-tv.png",
+          "src": "https://sidimadtv-live.blogspot.com/dubai-tv"
+        },
+        {
+          "name": "Abu Dhabi TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/abu-dhabi.png",
+          "src": "https://sidimadtv-live.blogspot.com/abu-dhabi"
+        },
+        {
+          "name": "Al Ittihad TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/ittihad.png",
+          "src": "https://sidimadtv-live.blogspot.com/al-ittihad"
+        },
+        {
+          "name": "Syria TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/syria.png",
+          "src": "https://sidimadtv-live.blogspot.com/syria-tv"
+        },
+        {
+          "name": "Nile TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/nile.png",
+          "src": "https://sidimadtv-live.blogspot.com/nile-tv"
+        },
+        {
+          "name": "ON TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/arabic/on-tv.png",
+          "src": "https://sidimadtv-live.blogspot.com/on-tv"
+        },
+        {
+          "name": "CGTN",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/cgt.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/cgtn"
+        }
       ]
     },
     {
@@ -103,23 +899,136 @@
       "name": "NEWS",
       "icon": "fa fa-newspaper",
       "channels": [
-        { "name": "Al Arabiya", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/alarabiya.png", "src": "https://channels-sidimad.blogspot.com/alarabiya" },
-        { "name": "Al Hadath", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/alhadath.png", "src": "https://channels-sidimad.blogspot.com/alhadath" },
-        { "name": "Al Jazeera", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/aljazeera.png", "src": "https://channels-sidimad.blogspot.com/aljazeera" },
-        { "name": "Al Jazeera Mub", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/jazeera-mub.png", "src": "https://channels-sidimad.blogspot.com/aljazeera-mub" },
-        { "name": "Sky News AR", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/skynews.png", "src": "https://channels-sidimad.blogspot.com/skynews-ar" },
-        { "name": "RT Arabic", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/rt-arabic.png", "src": "https://channels-sidimad.blogspot.com/rt-arabic" },
-        { "name": "Al Hurra", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/alhurra.png", "src": "https://channels-sidimad.blogspot.com/alhurra" },
-        { "name": "Asharqiya", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/asharqiya.png", "src": "https://channels-sidimad.blogspot.com/asharqiya" },
-        { "name": "TRT Arabic", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/trt-arabic.png", "src": "https://channels-sidimad.blogspot.com/trt-arabic" },
-        { "name": "TRT World", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/trt-world.png", "src": "https://channels-sidimad.blogspot.com/trt-world" },
-        { "name": "CNN Arabic", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/cnn.png", "src": "https://channels-sidimad.blogspot.com/cnn-arabic" },
-        { "name": "BBC Arabic", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/bbc.png", "src": "https://channels-sidimad.blogspot.com/bbc-arabic" },
-        { "name": "France 24 AR", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/france24.png", "src": "https://channels-sidimad.blogspot.com/france24-ar" },
-        { "name": "CNBC Arabia", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/cnbc.png", "src": "https://channels-sidimad.blogspot.com/cnbc-arabia" },
-        { "name": "Bloomberg AR", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/bloomberg.png", "src": "https://channels-sidimad.blogspot.com/bloomberg-ar" },
-        { "name": "Al Mayadeen", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/mayadeen.png", "src": "https://channels-sidimad.blogspot.com/al-mayadeen" },
-        { "name": "Al Araby", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/alaraby.png", "src": "https://channels-sidimad.blogspot.com/alaraby" }
+        {
+          "name": "Al Arabiya",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/alarabiya.png",
+          "src": "https://sidimadtv-live.blogspot.com/alarabiya"
+        },
+        {
+          "name": "Al Hadath",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/alhadath.png",
+          "src": "https://sidimadtv-live.blogspot.com/alhadath"
+        },
+        {
+          "name": "Al Jazeera",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/jazee.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/aljazeera"
+        },
+        {
+          "name": "Al Jazeera Mub",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/jazeem.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/aljazeera-mub"
+        },
+        {
+          "name": "Sky News AR",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/skynews.png",
+          "src": "https://sidimadtv-live.blogspot.com/skynews-ar"
+        },
+        {
+          "name": "RT Arabic",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/rt.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/rtarabic"
+        },
+        {
+          "name": "Al Hurra",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/hurra.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/alhurra"
+        },
+        {
+          "name": "Asharqiya",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/shark.png",
+          "src": "https://sidimadtv-live.blogspot.com/asharqiya"
+        },
+        {
+          "name": "TRT Arabic",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/trtar.png",
+          "src": "https://sidimadtv-live.blogspot.com/trtarabic"
+        },
+        {
+          "name": "TRT World",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/trtwo.png",
+          "src": "https://sidimadtv-live.blogspot.com/trtworld"
+        },
+        {
+          "name": "CNN Arabic",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/cnn.png",
+          "src": "https://sidimadtv-live.blogspot.com/cnn"
+        },
+        {
+          "name": "BBC Arabic",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/bbc.png",
+          "src": "https://sidimadtv-live.blogspot.com/bbc-arabic"
+        },
+        {
+          "name": "France 24 AR",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/news/france24.png",
+          "src": "https://sidimadtv-live.blogspot.com/france24-ar"
+        },
+        {
+          "name": "CNBC Arabia",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/cnnbc.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/cnbc"
+        },
+        {
+          "name": "Bloomberg AR",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/shrq.png",
+          "src": "https://sidimadtv-live.blogspot.com/bloomberg"
+        },
+        {
+          "name": "Al Mayadeen",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/mayy.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/almayadeen"
+        },
+        {
+          "name": "Al Araby",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/arby.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/alaraby"
+        },
+        {
+          "name": "Global",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/glob.jpeg",
+          "src": "https://sidimadtv-live.blogspot.com/global"
+        },
+        {
+          "name": "Halab",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/halab.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/halab"
+        },
+        {
+          "name": "M24",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/m24.png",
+          "src": "https://sidimadtv-live.blogspot.com/m24"
+        },
+        {
+          "name": "Alyaoum",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/youm.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/alyaoum"
+        },
+        {
+          "name": "DW Arabic",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/dwar.png",
+          "src": "https://sidimadtv-live.blogspot.com/dwarabic"
+        },
+        {
+          "name": "Mekamleen",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/mekam.webp",
+          "src": "https://sidimadtv-live.blogspot.com/mekamleen"
+        },
+        {
+          "name": "Hiwar",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/hiwar.webp",
+          "src": "https://sidimadtv-live.blogspot.com/hiwar"
+        },
+        {
+          "name": "Jordan TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/jor.webp",
+          "src": "https://sidimadtv-live.blogspot.com/jordan"
+        },
+        {
+          "name": "Iraqiya",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/iraqi.webp",
+          "src": "https://sidimadtv-live.blogspot.com/iraqiya"
+        }
       ]
     },
     {
@@ -127,16 +1036,61 @@
       "name": "KIDS",
       "icon": "fa fa-child",
       "channels": [
-        { "name": "Majed Kids", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/majed.png", "src": "https://channels-sidimad.blogspot.com/majed" },
-        { "name": "Spacetoon", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/spacetoon.png", "src": "https://channels-sidimad.blogspot.com/spacetoon" },
-        { "name": "Cartoon Network AR", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/cartoon.png", "src": "https://channels-sidimad.blogspot.com/cartoonetwork" },
-        { "name": "Gulli Billi", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/gulli.png", "src": "https://channels-sidimad.blogspot.com/gulliar" },
-        { "name": "MBC 3", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/mbc3.png", "src": "https://channels-sidimad.blogspot.com/mbc3-kids" },
-        { "name": "Rotana Kids", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/rotana-kids.png", "src": "https://channels-sidimad.blogspot.com/rotana-kids" },
-        { "name": "Nickelodeon AR", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/nick.png", "src": "https://channels-sidimad.blogspot.com/nick-ar" },
-        { "name": "Disney Channel AR", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/disney.png", "src": "https://channels-sidimad.blogspot.com/disney-ar" },
-        { "name": "Baraem TV", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/baraem.png", "src": "https://channels-sidimad.blogspot.com/baraem" },
-        { "name": "Atfal Wa Mawahib", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/atfal.png", "src": "https://channels-sidimad.blogspot.com/atfal-wa-mawahib" }
+        {
+          "name": "Majed Kids",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/majed.png",
+          "src": "https://sidimadtv-live.blogspot.com/majed"
+        },
+        {
+          "name": "Spacetoon",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/Spt.png",
+          "src": "https://sidimadtv-live.blogspot.com/spacetoon"
+        },
+        {
+          "name": "Cartoon Network AR",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/cn.webp",
+          "src": "https://sidimadtv-live.blogspot.com/cartoonetwork"
+        },
+        {
+          "name": "Gulli Billi",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/gul.png",
+          "src": "https://sidimadtv-live.blogspot.com/gulliar"
+        },
+        {
+          "name": "MBC 3",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/mbc3.png",
+          "src": "https://sidimadtv-live.blogspot.com/mbc3-kids"
+        },
+        {
+          "name": "Rotana Kids",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/roki.webp",
+          "src": "https://sidimadtv-live.blogspot.com/rot-kids"
+        },
+        {
+          "name": "Shahid Freej",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/freej.webp",
+          "src": "https://sidimadtv-live.blogspot.com/shahid-freej"
+        },
+        {
+          "name": "Nickelodeon AR",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/nick.png",
+          "src": "https://sidimadtv-live.blogspot.com/nick-ar"
+        },
+        {
+          "name": "Disney Channel AR",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/disney.png",
+          "src": "https://sidimadtv-live.blogspot.com/disney-ar"
+        },
+        {
+          "name": "Baraem TV",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/kids/baraem.png",
+          "src": "https://sidimadtv-live.blogspot.com/baraem"
+        },
+        {
+          "name": "Atfal Wa Mawahib",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/rot/atfa.png",
+          "src": "https://sidimadtv-live.blogspot.com/atfal-wa-mawahib"
+        }
       ]
     }
   ]
