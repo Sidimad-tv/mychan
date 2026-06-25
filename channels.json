@@ -7,7 +7,7 @@
       "icon": "fa-solid fa-television",
       "channels": [
         { "name": "1", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-1-5.png", "src": "https://sidimadtv-live.blogspot.com/mbc" },
-        { "name": "MBC USA", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/mus.png", "src": "https://channels-sidimad.blogspot.com/mbc-usa" },
+        { "name": "USA", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/mus.png", "src": "https://channels-sidimad.blogspot.com/mbc-usa" },
         { "name": "MBC 2", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-2-5.png", "src": "https://channels-sidimad.blogspot.com/mbc2" },
         { "name": "MBC 3", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-3-2.png", "src": "https://channels-sidimad.blogspot.com/mbc3" },
         { "name": "MBC 4", "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/img/smbc/mbc-4-3.png", "src": "https://channels-sidimad.blogspot.com/mbc4" },
