@@ -1092,6 +1092,98 @@
           "src": "https://sidimadtv-live.blogspot.com/atfal-wa-mawahib"
         }
       ]
+    },
+    {
+      "id": "library",
+      "name": "MY LIBRARY",
+      "icon": "fa-solid fa-bookmark",
+      "channels": [
+        {
+          "name": "Sayyad",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/sayyad.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/series/Assayad"
+        },
+        {
+          "name": "Caesar",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/caesar.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/series/Alcaesar"
+        },
+        {
+          "name": "Ibliss",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/ibliss.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/series/Ibliss"
+        },
+        {
+          "name": "Kafr",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/kafr.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/series/Kafr-Delhab"
+        },
+        {
+          "name": "Nihaya",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/nihaya.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/series/Nihaya"
+        },
+        {
+          "name": "Rakm",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/rakm.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/series/Rakm-Majhoul"
+        },
+        {
+          "name": "Covid",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/covid.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/series/Covid-25"
+        },
+        {
+          "name": "Name",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/name.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/series/Temp-Name"
+        },
+        {
+          "name": "Mo",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/Mo.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/tv/premium/MOLOTOV/automoto"
+        },
+        {
+          "name": "Malb",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/malb.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/series/malbanoun"
+        },
+        {
+          "name": "Masjoun",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/masjoun.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/masjoun-fi-lghorba"
+        },
+        {
+          "name": "Ifti",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/ifti.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/animals"
+        },
+        {
+          "name": "Tahk",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Img/a/tahk.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/fbicrimes"
+        },
+        {
+          "name": "Rafat",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Sidimad/ase/rafat.jpeg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/raafat"
+        },
+        {
+          "name": "Nus",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Sidimad/ase/nus.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/wanus"
+        },
+        {
+          "name": "Sad",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/imgg/library/sad.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/archive/wanus"
+        },
+        {
+          "name": "For",
+          "logo": "https://cdn.jsdelivr.net/gh/Sidimadtv/Imgg/for.jpg",
+          "src": "https://sidimadtv-live.blogspot.com/tv/premium/MOLOTOV/formula-one"
+        }
+      ]
     }
   ]
 }
